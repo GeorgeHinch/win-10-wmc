@@ -22,7 +22,7 @@
             <Viewbox Grid.Row="0" Grid.Column="2">
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
                     <TextBlock Text="8:25 PM" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Thin" SelectionChanged="TextBlock_SelectionChanged" Foreground="#7F000000" />
-                    <Button Width="30" Height="30" Foreground="{x:Null}" >
+                    <Button Click="Menu_Click" Width="30" Height="30" Foreground="{x:Null}" >
                         <Button.Background>
                             <ImageBrush Stretch="Uniform" ImageSource="Assets/WMC-logo-green.png"/>
                         </Button.Background>
@@ -41,27 +41,27 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                <Viewbox Grid.Column="0" Grid.Row="1">
-                    <Button Background="#FF8CBA3F" HorizontalAlignment="Center">
+                <Viewbox x:Name="VBButton1" Grid.Column="0" Grid.Row="1" Margin="40,0">
+                    <Button Background="#FF8CBA3F" HorizontalAlignment="Center" Width="{Binding ActualWidth, ElementName=VBButton1, Mode=OneWay}" Height="{Binding ActualHeight, ElementName=VBButton1, Mode=OneWay}">
                         <StackPanel Orientation="Vertical">
                             <TextBlock Text="" />
-                            <TextBlock Text="" />
+                            <TextBlock Text="Television" />
                         </StackPanel>
                     </Button>
                 </Viewbox>
-                <Viewbox Grid.Column="1" Grid.Row="1">
-                    <Button Background="#FF8CBA3F" HorizontalAlignment="Center">
+                <Viewbox x:Name="VBButton2" Grid.Column="1" Grid.Row="1" Margin="40,0">
+                    <Button Background="#FF8CBA3F" HorizontalAlignment="Center" Width="{Binding ActualWidth, ElementName=VBButton2, Mode=OneWay}" Height="{Binding ActualHeight, ElementName=VBButton2, Mode=OneWay}">
                         <StackPanel Orientation="Vertical">
                             <TextBlock Text="" />
-                            <TextBlock Text="" />
+                            <TextBlock Text="Movies" />
                         </StackPanel>
                     </Button>
                 </Viewbox>
-                <Viewbox Grid.Column="2" Grid.Row="1">
-                    <Button Background="#FF8CBA3F" HorizontalAlignment="Center">
+                <Viewbox x:Name="VBButton3" Grid.Column="2" Grid.Row="1" Margin="40,0">
+                    <Button Background="#FF8CBA3F" HorizontalAlignment="Center" Width="{Binding ActualWidth, ElementName=VBButton3, Mode=OneWay}" Height="{Binding ActualHeight, ElementName=VBButton3, Mode=OneWay}">
                         <StackPanel Orientation="Vertical">
                             <TextBlock Text="" />
-                            <TextBlock Text="" />
+                            <TextBlock Text="More" />
                         </StackPanel>
                     </Button>
                 </Viewbox>
