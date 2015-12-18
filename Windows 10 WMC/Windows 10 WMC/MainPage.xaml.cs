@@ -22,11 +22,18 @@ namespace Windows_10_WMC
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public static MainPage mainPage;
+
         public MainPage()
         {
             this.InitializeComponent();
             MainFrame.Navigate(typeof(Menu));
-            VideoFrame.Navigate(typeof(Guide));
+            MainPage.mainPage = this;
+        }
+
+        public Frame getMainFrame()
+        {
+            return this.MainFrame;
         }
     }
 }

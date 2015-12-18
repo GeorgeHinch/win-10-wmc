@@ -26,5 +26,10 @@ namespace Windows_10_WMC
         {
             this.InitializeComponent();
         }
+
+        private void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            MainPage.mainPage.MainFrame.Navigate(typeof(Menu));
+        }
     }
 }

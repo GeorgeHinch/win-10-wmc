@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
@@ -17,12 +17,31 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="3*" />
-                <RowDefinition Height="3*" />
+                <RowDefinition Height="4*" />
             </Grid.RowDefinitions>
 
+            <Rectangle Grid.Column="0" Grid.Row="0" Fill="White" />
             <Viewbox Grid.Column="0" Grid.Row="0">
                 <TextBlock Text="Guide" VerticalAlignment="Center" Margin="10" FontWeight="Thin" Foreground="#7F000000"/>
             </Viewbox>
+            <Rectangle Grid.Column="1" Grid.Row="0" Fill="White" />
+            <Rectangle Grid.Column="2" Grid.Row="0" Fill="White" />
+            <Viewbox Grid.Row="0" Grid.Column="2">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                    <TextBlock Text="8:25 PM" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Thin" Foreground="#7F000000" />
+                    <Button Click="Menu_Click" Width="30" Height="30" Foreground="{x:Null}" >
+                        <Button.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="Assets/WMC-logo-green.png"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Viewbox>
+
+            <Rectangle Grid.Column="2" Grid.Row="2" Fill="White" />
+
+            <Rectangle Grid.Column="1" Grid.Row="2" Fill="White" />
+
+            <Rectangle Grid.Column="0" Grid.Row="2" Fill="White" />
         </Grid>
     </Grid>
 </Page>
