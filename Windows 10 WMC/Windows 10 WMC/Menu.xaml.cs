@@ -29,7 +29,17 @@ namespace Windows_10_WMC
 
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
+            ///MainPage.MainFrame.Navigate(typeof(Menu));
+        }
 
+        private void TV_Click(object sender, RoutedEventArgs e)
+        {
+            ///MainPage.MainFrame.Navigate(typeof(Menu));
+        }
+
+        private void Movies_Click(object sender, RoutedEventArgs e)
+        {
+            ///MainPage.MainFrame.Navigate(typeof(Menu));
         }
     }
 }

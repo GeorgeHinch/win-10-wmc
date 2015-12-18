@@ -8,6 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="White">
-       
+        <Frame x:Name="VideoFrame">
+            <MediaElement x:Name="VideoElement" />
+        </Frame>
+        <Frame x:Name="MainFrame" />
     </Grid>
 </Page>

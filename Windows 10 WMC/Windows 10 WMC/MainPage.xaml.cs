@@ -25,6 +25,8 @@ namespace Windows_10_WMC
         public MainPage()
         {
             this.InitializeComponent();
+            MainFrame.Navigate(typeof(Menu));
+            VideoFrame.Navigate(typeof(Guide));
         }
     }
 }
