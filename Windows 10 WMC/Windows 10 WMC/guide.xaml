@@ -9,39 +9,106 @@
 
     <Grid>
         <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*" />
-                <ColumnDefinition Width="6*" />
-                <ColumnDefinition Width="1*" />
-            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="3*" />
                 <RowDefinition Height="4*" />
             </Grid.RowDefinitions>
 
-            <Rectangle Grid.Column="0" Grid.Row="0" Fill="White" />
-            <Viewbox Grid.Column="0" Grid.Row="0">
-                <TextBlock Text="Guide" VerticalAlignment="Center" Margin="10" FontWeight="Thin" Foreground="#7F000000"/>
-            </Viewbox>
-            <Rectangle Grid.Column="1" Grid.Row="0" Fill="White" />
-            <Rectangle Grid.Column="2" Grid.Row="0" Fill="White" />
-            <Viewbox Grid.Row="0" Grid.Column="2">
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
-                    <TextBlock Text="8:25 PM" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Thin" Foreground="#7F000000" />
-                    <Button Click="Menu_Click" Width="30" Height="30" Foreground="{x:Null}" >
-                        <Button.Background>
-                            <ImageBrush Stretch="Uniform" ImageSource="Assets/WMC-logo-green.png"/>
-                        </Button.Background>
-                    </Button>
-                </StackPanel>
-            </Viewbox>
+            <Grid Background="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="6*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
 
-            <Rectangle Grid.Column="2" Grid.Row="2" Fill="White" />
+                <Viewbox Grid.Column="0" Grid.Row="0">
+                    <TextBlock Text="Guide" VerticalAlignment="Center" Margin="10" FontWeight="Thin" Foreground="#7F000000"/>
+                </Viewbox>
+                <Viewbox Grid.Row="0" Grid.Column="2">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+                        <TextBlock Text="8:25 PM" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Thin" Foreground="#7F000000" />
+                        <Button Click="Menu_Click" Width="30" Height="30" Foreground="{x:Null}" >
+                            <Button.Background>
+                                <ImageBrush Stretch="Uniform" ImageSource="Assets/WMC-logo-green.png"/>
+                            </Button.Background>
+                        </Button>
+                    </StackPanel>
+                </Viewbox>
+            </Grid>
 
-            <Rectangle Grid.Column="1" Grid.Row="2" Fill="White" />
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
 
-            <Rectangle Grid.Column="0" Grid.Row="2" Fill="White" />
+                <Rectangle Grid.Column="1" Grid.Row="1" Fill="White" />
+                <Grid Grid.Column="1" Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="4*" />
+                        <RowDefinition Height="4*" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="8*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Viewbox x:Name="ShowStatusViewBox" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right">
+                        <TextBlock x:Name="ShowStatus" Text="Live" Foreground="#FFBFBFBF" FontWeight="Thin"/>
+                    </Viewbox>
+                    <Viewbox x:Name="ChannelViewBox" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="202" Foreground="#FF8CBA3F" Grid.Column="0" />
+                            <Grid Grid.Column="1" Width="10"/>
+                            <TextBlock x:Name="ChannelStatus" Text="CNN HD" Grid.Column="2"/>
+                        </Grid>
+                    </Viewbox>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="2" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="3*" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2.5*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="1" Text="8:00 PM" Foreground="#FFBFBFBF" FontWeight="Thin" VerticalAlignment="Bottom" FontSize="21.333"/>
+                    <TextBlock Grid.Column="2" Text="8:30 PM" Foreground="#FFBFBFBF" FontWeight="Thin" VerticalAlignment="Bottom" FontSize="21.333"/>
+                    <TextBlock Grid.Column="3" Text="9:00 PM" Foreground="#FFBFBFBF" FontWeight="Thin" VerticalAlignment="Bottom" FontSize="21.333"/>
+                    <TextBlock Grid.Column="4" Text="9:30 PM" Foreground="#FFBFBFBF" FontWeight="Thin" VerticalAlignment="Bottom" FontSize="21.333"/>
+                    <TextBlock Grid.Column="5" Text="10:00 PM" Foreground="#FFBFBFBF" FontWeight="Thin" VerticalAlignment="Bottom" FontSize="21.333"/>
+                </Grid>
+            </Grid>
         </Grid>
     </Grid>
 </Page>
