@@ -106,7 +106,7 @@
                     <TextBlock Grid.Column="5" Text="10:00 PM" Foreground="#FFBFBFBF" FontWeight="Thin" VerticalAlignment="Bottom" FontSize="21.333" Margin="10,0,0,0"/>
                 </Grid>
                 <Grid Grid.Row="1">
-                    <ScrollViewer>
+                    <ScrollViewer VerticalScrollMode="Auto">
                         <Grid>
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -125,7 +125,7 @@
                                 <Grid Grid.Column="0" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
                                     <TextBlock Text="202" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                <Grid Grid.Column="1" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                     <TextBlock Text="CNN HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="0">
@@ -137,18 +137,18 @@
                                     <Grid Grid.Column="0" Background="#FF8CBA3F">
                                         <TextBlock Text="Anderson Cooper 360" Foreground="White" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="CNN Tonight" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Anthony Bourdain: Parts Unknown" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
                                     </Grid>
                                 </Grid>
 
-                                <Grid Grid.Column="0" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
+                                <Grid Grid.Column="0" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
                                     <TextBlock Text="229" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                <Grid Grid.Column="1" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                     <TextBlock Text="HGTV HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="1">
@@ -158,24 +158,24 @@
                                         <ColumnDefinition Width="2*" />
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Property Brothers" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Brother vs. Brother" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
                                     </Grid>
                                 </Grid>
 
-                                <Grid Grid.Column="0" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
+                                <Grid Grid.Column="0" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
                                     <TextBlock Text="236" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                <Grid Grid.Column="1" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                     <TextBlock Text="E! HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="2">
@@ -185,24 +185,24 @@
                                         <ColumnDefinition Width="2*" />
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Keeping Up With The Kardashians" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Anthony Bourdain: Parts Unknown" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
                                     </Grid>
                                 </Grid>
 
-                                <Grid Grid.Column="0" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
+                                <Grid Grid.Column="0" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
                                     <TextBlock Text="242" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                <Grid Grid.Column="1" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                     <TextBlock Text="USA HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="3">
@@ -211,13 +211,13 @@
                                         <ColumnDefinition Width="4*" />
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Law &amp; Order: Special Victims Unit" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Suits" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Graceland" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
                                     </Grid>
                                 </Grid>
@@ -236,7 +236,121 @@
                                     <ColumnDefinition Width="9*" />
                                 </Grid.ColumnDefinitions>
 
-                                <Grid Grid.Column="0" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
+                                <Grid Grid.Column="0" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
+                                    <TextBlock Text="202" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
+                                </Grid>
+                                <Grid Grid.Column="1" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                    <TextBlock Text="CNN HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
+                                </Grid>
+                                <Grid Grid.Column="2" Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0" Background="#FF8CBA3F">
+                                        <TextBlock Text="Anderson Cooper 360" Foreground="White" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="CNN Tonight" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Anthony Bourdain: Parts Unknown" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </Grid>
+
+                                <Grid Grid.Column="0" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
+                                    <TextBlock Text="229" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
+                                </Grid>
+                                <Grid Grid.Column="1" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                    <TextBlock Text="HGTV HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
+                                </Grid>
+                                <Grid Grid.Column="2" Grid.Row="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="2*" />
+                                        <ColumnDefinition Width="2*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Property Brothers" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Brother vs. Brother" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </Grid>
+
+                                <Grid Grid.Column="0" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
+                                    <TextBlock Text="236" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
+                                </Grid>
+                                <Grid Grid.Column="1" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                    <TextBlock Text="E! HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
+                                </Grid>
+                                <Grid Grid.Column="2" Grid.Row="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="2*" />
+                                        <ColumnDefinition Width="2*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Keeping Up With The Kardashians" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Anthony Bourdain: Parts Unknown" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </Grid>
+
+                                <Grid Grid.Column="0" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
+                                    <TextBlock Text="242" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
+                                </Grid>
+                                <Grid Grid.Column="1" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                    <TextBlock Text="USA HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
+                                </Grid>
+                                <Grid Grid.Column="2" Grid.Row="3">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Law &amp; Order: Special Victims Unit" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Suits" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
+                                    </Grid>
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
+                                        <TextBlock Text="Graceland" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width=".75*" />
+                                    <ColumnDefinition Width="1.75*" />
+                                    <ColumnDefinition Width="9*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="0" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
                                     <TextBlock Text="202" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
                                 <Grid Grid.Column="1" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
@@ -259,10 +373,10 @@
                                     </Grid>
                                 </Grid>
 
-                                <Grid Grid.Column="0" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
+                                <Grid Grid.Column="0" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
                                     <TextBlock Text="229" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                <Grid Grid.Column="1" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                     <TextBlock Text="HGTV HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="1">
@@ -272,24 +386,24 @@
                                         <ColumnDefinition Width="2*" />
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Property Brothers" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Brother vs. Brother" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
                                     </Grid>
                                 </Grid>
 
-                                <Grid Grid.Column="0" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
+                                <Grid Grid.Column="0" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
                                     <TextBlock Text="236" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                <Grid Grid.Column="1" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                     <TextBlock Text="E! HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="2">
@@ -299,24 +413,24 @@
                                         <ColumnDefinition Width="2*" />
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Keeping Up With The Kardashians" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Anthony Bourdain: Parts Unknown" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
                                     </Grid>
                                 </Grid>
 
-                                <Grid Grid.Column="0" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
+                                <Grid Grid.Column="0" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
                                     <TextBlock Text="242" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                <Grid Grid.Column="1" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                     <TextBlock Text="USA HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="3">
@@ -325,127 +439,13 @@
                                         <ColumnDefinition Width="4*" />
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Law &amp; Order: Special Victims Unit" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Suits" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Graceland" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                                    </Grid>
-                                </Grid>
-                            </Grid>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
-
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width=".75*" />
-                                    <ColumnDefinition Width="1.75*" />
-                                    <ColumnDefinition Width="9*" />
-                                </Grid.ColumnDefinitions>
-
-                                <Grid Grid.Column="0" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
-                                    <TextBlock Text="202" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
-                                </Grid>
-                                <Grid Grid.Column="1" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                    <TextBlock Text="CNN HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
-                                </Grid>
-                                <Grid Grid.Column="2" Grid.Row="0">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="4*" />
-                                        <ColumnDefinition Width="4*" />
-                                        <ColumnDefinition Width="1*" />
-                                    </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" Background="#FF8CBA3F">
-                                        <TextBlock Text="Anderson Cooper 360" Foreground="White" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="CNN Tonight" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Anthony Bourdain: Parts Unknown" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                                    </Grid>
-                                </Grid>
-
-                                <Grid Grid.Column="0" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
-                                    <TextBlock Text="229" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
-                                </Grid>
-                                <Grid Grid.Column="1" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                    <TextBlock Text="HGTV HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
-                                </Grid>
-                                <Grid Grid.Column="2" Grid.Row="1">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="4*" />
-                                        <ColumnDefinition Width="2*" />
-                                        <ColumnDefinition Width="2*" />
-                                        <ColumnDefinition Width="1*" />
-                                    </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Property Brothers" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="House Hunters" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Brother vs. Brother" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                                    </Grid>
-                                </Grid>
-
-                                <Grid Grid.Column="0" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
-                                    <TextBlock Text="236" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
-                                </Grid>
-                                <Grid Grid.Column="1" Grid.Row="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                    <TextBlock Text="E! HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
-                                </Grid>
-                                <Grid Grid.Column="2" Grid.Row="2">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="4*" />
-                                        <ColumnDefinition Width="2*" />
-                                        <ColumnDefinition Width="2*" />
-                                        <ColumnDefinition Width="1*" />
-                                    </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Keeping Up With The Kardashians" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="The Soup" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Anthony Bourdain: Parts Unknown" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
-                                    </Grid>
-                                </Grid>
-
-                                <Grid Grid.Column="0" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
-                                    <TextBlock Text="242" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
-                                </Grid>
-                                <Grid Grid.Column="1" Grid.Row="3" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                    <TextBlock Text="USA HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
-                                </Grid>
-                                <Grid Grid.Column="2" Grid.Row="3">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="4*" />
-                                        <ColumnDefinition Width="4*" />
-                                        <ColumnDefinition Width="1*" />
-                                    </Grid.ColumnDefinitions>
-                                    <Grid Grid.Column="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Law &amp; Order: Special Victims Unit" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
-                                        <TextBlock Text="Suits" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
-                                    </Grid>
-                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <Grid Grid.Column="2" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
                                         <TextBlock Text="Graceland" Foreground="#FFBFBFBF" FontWeight="Thin" FontSize="26.667" TextTrimming="CharacterEllipsis" Margin="10,0,0,0" VerticalAlignment="Center"/>
                                     </Grid>
                                 </Grid>
@@ -465,8 +465,8 @@
                     <Image  Grid.Column="1"/>
 
                     <StackPanel Orientation="Vertical" Grid.Column="2" VerticalAlignment="Center">
-                        <TextBlock Text="Anderson Cooper 360"/>
-                        <TextBlock Text="Anderson Cooper goes beyond the headlines to tell stories from many points of view, so you can ake up your own mind about the news." TextTrimming="CharacterEllipsis" TextWrapping="Wrap" MaxLines="2"/>
+                        <TextBlock Text="Anderson Cooper 360" FontSize="32"/>
+                        <TextBlock Text="Anderson Cooper goes beyond the headlines to tell stories from many points of view, so you can make up your own mind about the news." TextTrimming="CharacterEllipsis" TextWrapping="Wrap" MaxLines="2" FontSize="26.667" FontWeight="Light"/>
                     </StackPanel>
                 </Grid>
             </Grid>
