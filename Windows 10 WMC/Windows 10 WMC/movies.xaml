@@ -29,6 +29,16 @@
                     </Button>
                 </StackPanel>
             </Viewbox>
+
+            <Hub Grid.Row="1" Grid.ColumnSpan="3">
+                <HubSection Header="Suggested">
+                    <DataTemplate></DataTemplate>
+                </HubSection>
+                
+                <HubSection Header="Services">
+
+                </HubSection>
+            </Hub>
         </Grid>
     </Grid>
 </Page>
