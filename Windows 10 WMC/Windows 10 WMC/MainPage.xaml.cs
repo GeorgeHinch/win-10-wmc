@@ -44,9 +44,24 @@ namespace Windows_10_WMC
 
         void CoreWindow_KeyDown(Windows.UI.Core.CoreWindow sender, Windows.UI.Core.KeyEventArgs args)
         {
-            if (args.VirtualKey == VirtualKey.Control && args.VirtualKey == VirtualKey.L)
+            if (args.VirtualKey == VirtualKey.L)
+            {
+                Debug.WriteLine("L key is pressed.");
+            }
+
+            if (args.VirtualKey == VirtualKey.G)
+            {
+                Debug.WriteLine("G key is pressed.");
+            }
+
+            if (args.VirtualKey == VirtualKey.Menu)
             {
                 Debug.WriteLine("Menu key is pressed.");
+            }
+
+            if (args.VirtualKey == VirtualKey.M)
+            {
+                Debug.WriteLine("M key is pressed.");
             }
         }
 
