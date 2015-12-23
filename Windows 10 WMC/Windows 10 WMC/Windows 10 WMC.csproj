@@ -120,6 +120,7 @@
     <None Include="Windows 10 WMC_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\anderson_cooper_360_ver6_xlg.jpg" />
     <Content Include="Assets\untitled.png" />
     <Content Include="Assets\WMC-logo-white.png" />
     <Content Include="Assets\WMC-logo-green.png" />

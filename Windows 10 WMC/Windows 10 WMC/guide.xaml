@@ -462,7 +462,7 @@
                         <ColumnDefinition Width="18*" />
                     </Grid.ColumnDefinitions>
 
-                    <Image  Grid.Column="1"/>
+                    <Image  Grid.Column="1" Source="Assets/anderson_cooper_360_ver6_xlg.jpg" Margin="15"/>
 
                     <StackPanel Orientation="Vertical" Grid.Column="2" VerticalAlignment="Center">
                         <TextBlock Text="Anderson Cooper 360" FontSize="32"/>

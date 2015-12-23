@@ -50,19 +50,13 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Text="&#xE71E;" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe MDL2 Assets" Foreground="#FFBFBFBF" FontSize="26.667"/>
-                    <TextBox Text="" Grid.Column="1" VerticalAlignment="Center" FontSize="24" Foreground="#FFAEAEAE" BorderBrush="{x:Null}" PlaceholderText="Search" Background="{x:Null}"/>
+                    <TextBox Text="" Grid.Column="1" VerticalAlignment="Center" FontSize="24" Foreground="#FFAEAEAE" BorderBrush="{x:Null}" PlaceholderText="Search" Background="{x:Null}" FontWeight="Light"/>
                 </Grid>
             </Grid>
 
-            <Hub Grid.Row="2" Grid.ColumnSpan="3">
-                <HubSection Header="Suggested">
-                    <DataTemplate></DataTemplate>
-                </HubSection>
+            <Grid Grid.Row="2" Grid.ColumnSpan="3">
                 
-                <HubSection Header="Services">
-
-                </HubSection>
-            </Hub>
+            </Grid>
         </Grid>
     </Grid>
 </Page>
