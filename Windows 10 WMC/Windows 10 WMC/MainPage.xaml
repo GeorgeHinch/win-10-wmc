@@ -9,7 +9,7 @@
 
     <Grid Background="White">
         <Frame x:Name="VideoFrame">
-            <MediaElement x:Name="VideoElement" x:FieldModifier="public" AudioCategory="Movie" IsLooping="True" Source="Assets/DonaldTrumpInterviewwithAndersonCooperonAC360.mp4" />
+            <MediaElement x:Name="VideoElement" x:FieldModifier="public" AudioCategory="BackgroundCapableMedia" IsLooping="True" Source="Assets/DonaldTrumpInterviewwithAndersonCooperonAC360.mp4" />
             <!--<Image Source="Assets/untitled.png" Stretch="UniformToFill" />-->
         </Frame>
         <Frame x:Name="MainFrame" x:FieldModifier="public"/>

@@ -25,6 +25,13 @@ namespace Windows_10_WMC
         public Movies()
         {
             this.InitializeComponent();
+
+            load_Time();
+        }
+
+        public void load_Time()
+        {
+            System_Time.Text = DateTime.Now.ToString("h" + ":" + "mm" + " " + "tt");
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)

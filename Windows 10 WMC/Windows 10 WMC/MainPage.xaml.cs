@@ -39,10 +39,10 @@ namespace Windows_10_WMC
 
         public string systemTime;
 
-        void dispatchTimer_Tick(object sender, object e)
+        public void dispatchTimer_Tick(object sender, object e)
         {
             systemTime = DateTime.Now.ToString("h" + ":" + "mm" + " " + "tt");
-            Debug.WriteLine
+            Debug.WriteLine(systemTime);
         }
 
         public Frame getMainFrame()

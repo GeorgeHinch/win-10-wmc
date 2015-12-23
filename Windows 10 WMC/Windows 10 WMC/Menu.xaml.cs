@@ -22,16 +22,21 @@ namespace Windows_10_WMC
     /// </summary>
     public sealed partial class Menu : Page
     {
+        systemTime timer;
+        systemTime system_Time;
+
         public Menu()
         {
             this.InitializeComponent();
 
             load_Time();
-        }
 
+        }
+        
         public void load_Time()
         {
-            //System_Time.Text = MainPage.mainPage.systemTime;
+            System_Time.Text = DateTime.Now.ToString("h" + ":" + "mm" + " " + "tt");
+            //System_Time.Text = system_Time.ToString();
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)

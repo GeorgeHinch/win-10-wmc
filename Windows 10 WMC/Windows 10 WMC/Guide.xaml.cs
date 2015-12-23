@@ -27,6 +27,13 @@ namespace Windows_10_WMC
         public Guide()
         {
             this.InitializeComponent();
+
+            load_Time();
+        }
+
+        public void load_Time()
+        {
+            System_Time.Text = DateTime.Now.ToString("h" + ":" + "mm" + " " + "tt");
         }
 
         public SolidColorBrush unselectedText = new SolidColorBrush(Color.FromArgb(255, 191, 191, 191));
