@@ -121,6 +121,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\anderson_cooper_360_ver6_xlg.jpg" />
+    <Content Include="Assets\DonaldTrumpInterviewwithAndersonCooperonAC360.mp4" />
+    <Content Include="Assets\PropertyBrothersJonathansWorstDate.mp4" />
     <Content Include="Assets\untitled.png" />
     <Content Include="Assets\WMC-logo-white.png" />
     <Content Include="Assets\WMC-logo-green.png" />

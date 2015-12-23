@@ -58,7 +58,7 @@
                             <TextBlock Text="&#59732;" FontFamily="Segoe MDL2 Assets" Foreground="White" Margin="5"/>
                         </Viewbox>
                         <Viewbox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left">
-                            <TextBlock Text="Television" Foreground="White" FontWeight="Thin"/>
+                            <TextBlock Text="Live TV" Foreground="White" FontWeight="Thin"/>
                         </Viewbox>
                     </Grid>
                 </Button>

@@ -31,5 +31,15 @@ namespace Windows_10_WMC
         {
             MainPage.mainPage.MainFrame.Navigate(typeof(Menu));
         }
+
+        private void Row1_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            MainPage.mainPage.VideoElement.Source = new Uri("ms-appx:/Assets/DonaldTrumpInterviewwithAndersonCooperonAC360.mp4", UriKind.RelativeOrAbsolute);
+        }
+
+        private void Row2_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            MainPage.mainPage.VideoElement.Source = new Uri("ms-appx:/Assets/PropertyBrothersJonathansWorstDate.mp4", UriKind.RelativeOrAbsolute);
+        }
     }
 }
