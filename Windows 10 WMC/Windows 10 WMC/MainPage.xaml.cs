@@ -4,8 +4,11 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,10 +34,20 @@ namespace Windows_10_WMC
             MainFrame.Navigate(typeof(Menu));
             MainPage.mainPage = this;
 
+            Window.Current.CoreWindow.KeyDown += CoreWindow_KeyDown;
+
             DispatcherTimer timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += new EventHandler<object>(dispatchTimer_Tick);
             timer.Start();
+        }
+
+        void CoreWindow_KeyDown(Windows.UI.Core.CoreWindow sender, Windows.UI.Core.KeyEventArgs args)
+        {
+            if (args.VirtualKey == VirtualKey.Control && args.VirtualKey == VirtualKey.L)
+            {
+                Debug.WriteLine("Menu key is pressed.");
+            }
         }
 
         public string systemTime;
@@ -42,7 +55,6 @@ namespace Windows_10_WMC
         public void dispatchTimer_Tick(object sender, object e)
         {
             systemTime = DateTime.Now.ToString("h" + ":" + "mm" + " " + "tt");
-            Debug.WriteLine(systemTime);
         }
 
         public Frame getMainFrame()
