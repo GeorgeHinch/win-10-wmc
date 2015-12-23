@@ -46,22 +46,35 @@ namespace Windows_10_WMC
         {
             if (args.VirtualKey == VirtualKey.L)
             {
-                Debug.WriteLine("L key is pressed.");
+                if (MainFrame.Visibility == Visibility.Collapsed)
+                {
+                    MainFrame.Visibility = Visibility.Visible;
+                }
+                else if (MainFrame.Visibility == Visibility.Visible)
+                {
+                    MainFrame.Visibility = Visibility.Collapsed;
+                }
             }
 
             if (args.VirtualKey == VirtualKey.G)
             {
                 Debug.WriteLine("G key is pressed.");
+                MainFrame.Visibility = Visibility.Visible;
+                MainFrame.Navigate(typeof(Guide));
             }
 
-            if (args.VirtualKey == VirtualKey.Menu)
+            if (args.VirtualKey == VirtualKey.A)
             {
-                Debug.WriteLine("Menu key is pressed.");
+                Debug.WriteLine("A key is pressed.");
+                MainFrame.Visibility = Visibility.Visible;
+                MainFrame.Navigate(typeof(Menu));
             }
 
             if (args.VirtualKey == VirtualKey.M)
             {
                 Debug.WriteLine("M key is pressed.");
+                MainFrame.Visibility = Visibility.Visible;
+                MainFrame.Navigate(typeof(Movies));
             }
         }
 
