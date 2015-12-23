@@ -121,6 +121,7 @@
     <None Include="Windows 10 WMC_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\087854af82aaca641c46104ac4655241-18142.jpg" />
     <Content Include="Assets\anderson_cooper_360_ver6_xlg.jpg" />
     <Content Include="Assets\DonaldTrumpInterviewwithAndersonCooperonAC360.mp4" />
     <Content Include="Assets\PropertyBrothersJonathansWorstDate.mp4" />

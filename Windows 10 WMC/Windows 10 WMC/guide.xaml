@@ -234,11 +234,11 @@
                         <ColumnDefinition Width="18*" />
                     </Grid.ColumnDefinitions>
 
-                    <Image  Grid.Column="1" Source="Assets/anderson_cooper_360_ver6_xlg.jpg" Margin="15"/>
+                    <Image x:Name="Info_Image" Grid.Column="1" Source="Assets/anderson_cooper_360_ver6_xlg.jpg" Margin="15"/>
 
                     <StackPanel Orientation="Vertical" Grid.Column="2" VerticalAlignment="Center">
-                        <TextBlock Text="Anderson Cooper 360" FontSize="32"/>
-                        <TextBlock Text="Anderson Cooper goes beyond the headlines to tell stories from many points of view, so you can make up your own mind about the news." TextTrimming="CharacterEllipsis" TextWrapping="Wrap" MaxLines="2" FontSize="26.667" FontWeight="Light"/>
+                        <TextBlock x:Name="Info_Name" Text="Anderson Cooper 360" FontSize="32"/>
+                        <TextBlock x:Name="Info_Synops" Text="Anderson Cooper goes beyond the headlines to tell stories from many points of view, so you can make up your own mind about the news." TextTrimming="CharacterEllipsis" TextWrapping="Wrap" MaxLines="2" FontSize="26.667" FontWeight="Light"/>
                     </StackPanel>
                 </Grid>
             </Grid>
