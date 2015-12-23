@@ -27,7 +27,7 @@
                 </Viewbox>
                 <Viewbox Grid.Row="0" Grid.Column="2">
                     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
-                        <TextBlock Text="8:25 PM" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Thin" Foreground="#7F000000" />
+                        <TextBlock x:Name="System_Time" Text="8:25 PM" VerticalAlignment="Center" Margin="0,0,10,0" FontWeight="Thin" Foreground="#7F000000" />
                         <Button Click="Menu_Click" Width="30" Height="30" Foreground="{x:Null}" >
                             <Button.Background>
                                 <ImageBrush Stretch="Uniform" ImageSource="Assets/WMC-logo-green.png"/>
@@ -74,7 +74,7 @@
                                 <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
 
-                            <TextBlock Text="202" Foreground="#FF8CBA3F" Grid.Column="0" />
+                            <TextBlock x:Name="ChannelNumber" Text="202" Foreground="#FF8CBA3F" Grid.Column="0" />
                             <Grid Grid.Column="1" Width="10"/>
                             <TextBlock x:Name="ChannelStatus" Text="CNN HD" Grid.Column="2"/>
                         </Grid>
@@ -123,10 +123,10 @@
                                 </Grid.ColumnDefinitions>
 
                                 <Grid Grid.Column="0" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
-                                    <TextBlock Text="202" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
+                                    <TextBlock x:Name="Channel1_Number" Text="202" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
-                                <Grid Grid.Column="1" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1">
-                                    <TextBlock Text="CNN HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
+                                <Grid Grid.Column="1" Grid.Row="0" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
+                                    <TextBlock x:Name="Channel1_Name" Text="CNN HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="0">
                                     <Grid.ColumnDefinitions>
@@ -134,7 +134,7 @@
                                         <ColumnDefinition Width="4*" />
                                         <ColumnDefinition Width="1*" />
                                     </Grid.ColumnDefinitions>
-                                    <Grid x:Name="Row1" Grid.Column="0" Background="#FF8CBA3F">
+                                    <Grid x:Name="Row1" Grid.Column="0" Background="#FF8CBA3F" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
                                         <TextBlock x:Name="Row1_Text" Tapped="Row1_Tapped" Text="Anderson Cooper 360" Foreground="White" FontWeight="Thin" FontSize="26.667" VerticalAlignment="Center" Margin="10,0"/>
                                     </Grid>
                                     <Grid Grid.Column="1" BorderBrush="#FFBFBFBF" BorderThickness="0,1,1,1">
@@ -146,10 +146,10 @@
                                 </Grid>
 
                                 <Grid Grid.Column="0" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,0,1">
-                                    <TextBlock Text="229" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
+                                    <TextBlock x:Name="Channel2_Number" Text="229" Foreground="#FF8CBA3F" FontWeight="Normal" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" TextAlignment="Right"/>
                                 </Grid>
                                 <Grid Grid.Column="1" Grid.Row="1" BorderBrush="#FFBFBFBF" BorderThickness="0,0,1,1">
-                                    <TextBlock Text="HGTV HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
+                                    <TextBlock x:Name="Channel2_Name" Text="HGTV HD" Foreground="Black" FontSize="26.667" VerticalAlignment="Center" Margin="10,0" FontWeight="Normal"/>
                                 </Grid>
                                 <Grid Grid.Column="2" Grid.Row="1">
                                     <Grid.ColumnDefinitions>

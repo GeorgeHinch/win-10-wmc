@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -29,6 +30,19 @@ namespace Windows_10_WMC
             this.InitializeComponent();
             MainFrame.Navigate(typeof(Menu));
             MainPage.mainPage = this;
+
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += new EventHandler<object>(dispatchTimer_Tick);
+            timer.Start();
+        }
+
+        public string systemTime;
+
+        void dispatchTimer_Tick(object sender, object e)
+        {
+            systemTime = DateTime.Now.ToString("h" + ":" + "mm" + " " + "tt");
+            Debug.WriteLine
         }
 
         public Frame getMainFrame()

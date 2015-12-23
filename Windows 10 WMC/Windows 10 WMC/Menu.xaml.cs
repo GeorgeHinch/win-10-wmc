@@ -25,6 +25,13 @@ namespace Windows_10_WMC
         public Menu()
         {
             this.InitializeComponent();
+
+            load_Time();
+        }
+
+        public void load_Time()
+        {
+            //System_Time.Text = MainPage.mainPage.systemTime;
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)
