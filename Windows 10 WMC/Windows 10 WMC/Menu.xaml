@@ -81,11 +81,24 @@
                         </Viewbox>
                     </Grid>
                 </Button>
-                <Button Background="#FF8CBA3F" HorizontalAlignment="Stretch" Grid.Column="2" Grid.Row="1" VerticalAlignment="Stretch" Margin="20,0">
-                    <StackPanel Orientation="Vertical">
-                        <TextBlock Text="" FontFamily="Segoe MDL2 Assets"/>
-                        <TextBlock Text="More" />
-                    </StackPanel>
+                <Button x:Name="More_Button" Background="#FF8CBA3F" HorizontalAlignment="Stretch" Grid.Column="2" Grid.Row="1" VerticalAlignment="Stretch" Margin="20,0">
+                    <Grid Width="{Binding ActualWidth, ElementName=More_Button, Mode=OneWay}" Padding="-10,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="10*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="6*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Viewbox Grid.Column="1" Grid.Row="0">
+                            <TextBlock Text="&#59152;" FontFamily="Segoe MDL2 Assets" Foreground="White" Margin="5"/>
+                        </Viewbox>
+                        <Viewbox Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left">
+                            <TextBlock Text="More" Foreground="White" FontWeight="Thin"/>
+                        </Viewbox>
+                    </Grid>
                 </Button>
             </Grid>
         </Grid>
