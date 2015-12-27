@@ -53,10 +53,9 @@
                     <TextBox Text="" Grid.Column="1" VerticalAlignment="Center" FontSize="24" Foreground="#FFAEAEAE" BorderBrush="{x:Null}" PlaceholderText="Search" Background="{x:Null}" FontWeight="Light"/>
                 </Grid>
             </Grid>
-
-            <Grid Grid.Row="2" Grid.ColumnSpan="3">
-                
-            </Grid>
+            <Frame x:Name="MoviesContentFrame" Grid.Row="2" Grid.ColumnSpan="3" Margin="0,25,0,0">
+                <TextBlock Text="Sample" />
+            </Frame> 
         </Grid>
     </Grid>
 </Page>

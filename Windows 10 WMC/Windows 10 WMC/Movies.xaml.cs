@@ -27,6 +27,7 @@ namespace Windows_10_WMC
             this.InitializeComponent();
 
             load_Time();
+            MoviesContentFrame.Navigate(typeof(Movies_Main));
         }
 
         public void load_Time()
