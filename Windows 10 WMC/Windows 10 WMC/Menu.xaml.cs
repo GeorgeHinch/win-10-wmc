@@ -59,13 +59,13 @@ namespace Windows_10_WMC
         {
             //MoreHoverArrow.Visibility = Visibility.Visible;
             More_Line.Stroke = new SolidColorBrush(Color.FromArgb(255, 140, 186, 63));
-            More_Arrow.Background = new SolidColorBrush(Color.FromArgb(255, 140, 186, 63));
+            More_Arrow.Fill = new SolidColorBrush(Color.FromArgb(255, 140, 186, 63));
         }
 
         private void More_Hover_Exit(object sender, RoutedEventArgs e)
         {
             More_Line.Stroke = new SolidColorBrush(Color.FromArgb(255, 191, 191, 191));
-            More_Arrow.Background = new SolidColorBrush(Color.FromArgb(255, 191, 191, 191));
+            More_Arrow.Fill = new SolidColorBrush(Color.FromArgb(255, 191, 191, 191));
         }
     }
 }

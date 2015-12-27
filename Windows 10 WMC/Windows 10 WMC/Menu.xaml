@@ -113,16 +113,11 @@
                         </Grid.ColumnDefinitions>
                         <StackPanel Orientation="Vertical" Grid.ColumnSpan="2">
                             <Line x:Name="More_Line" Stroke="#7F000000" X2="10000" StrokeThickness="5"  />
-                            <Rectangle Fill="#7F000000" Height="25" Width="25" RenderTransformOrigin="0.5,0.5">
-                                <Rectangle.RenderTransform>
-                                    <CompositeTransform Rotation="45"/>
-                                </Rectangle.RenderTransform>
-                            </Rectangle>
-                            <Canvas x:Name="More_Arrow" Background="#7F000000" />
+                            <Polygon x:Name="More_Arrow" Points="0,0 7.5,10, 15,0" Fill="#7F000000" HorizontalAlignment="Center" />
                         </StackPanel>
                     </Grid>
-                    <Button x:Name="More_Dropdown" Grid.Row="1" HorizontalAlignment="Stretch" Background="{x:Null}" BorderBrush="{x:Null}" PointerEntered="More_Hover" VerticalAlignment="Top">
-                        <TextBlock Text="More Content" FontWeight="Thin" Foreground="#7F000000" FontSize="26.667" />
+                    <Button x:Name="More_Dropdown" Grid.Row="1" HorizontalAlignment="Stretch" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top">
+                        <TextBlock Text="More Content" FontWeight="Thin" Foreground="#7F000000" FontSize="26.667" PointerEntered="More_Hover" PointerExited="More_Hover_Exit" />
                     </Button>
                 </Grid>
             </Grid>
