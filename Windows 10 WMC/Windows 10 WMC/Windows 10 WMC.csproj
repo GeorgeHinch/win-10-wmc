@@ -111,6 +111,12 @@
     <Compile Include="Movies.xaml.cs">
       <DependentUpon>Movies.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Movies_Details.xaml.cs">
+      <DependentUpon>Movies_Details.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Movies_Main.xaml.cs">
+      <DependentUpon>Movies_Main.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="systemTime.cs" />
   </ItemGroup>
@@ -158,11 +164,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MoviesMain.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Movies_Detail.xaml">
+    <Page Include="Movies_Details.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
