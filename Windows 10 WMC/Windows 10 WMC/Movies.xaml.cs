@@ -27,12 +27,17 @@ namespace Windows_10_WMC
             this.InitializeComponent();
 
             load_Time();
-            MoviesContentFrame.Navigate(typeof(Movies_Main));
+            load_MainFrame();
         }
 
         public void load_Time()
         {
             System_Time.Text = DateTime.Now.ToString("h" + ":" + "mm" + " " + "tt");
+        }
+
+        public void load_MainFrame()
+        {
+            MoviesContentFrame.Navigate(typeof(Movies_Main));
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)

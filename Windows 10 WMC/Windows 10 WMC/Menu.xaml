@@ -100,6 +100,22 @@
                         </Viewbox>
                     </Grid>
                 </Button>
+
+                <Grid Grid.ColumnSpan="3" Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid x:Name="MoreHoverArrow" HorizontalAlignment="Center" Margin="200,0" VerticalAlignment="Bottom" Visibility="Collapsed">
+                        <StackPanel Orientation="Vertical">
+                            <Line Fill="#FF8CBA3F" Stroke="#FF8CBA3F" X2="10000" StrokeThickness="5"  />
+                            <Canvas />
+                        </StackPanel>
+                    </Grid>
+                    <Button x:Name="More_Dropdown" Grid.Row="1" HorizontalAlignment="Stretch" Background="{x:Null}" BorderBrush="{x:Null}" PointerEntered="More_Hover" VerticalAlignment="Top">
+                        <TextBlock Text="More Content" />
+                    </Button>
+                </Grid>
             </Grid>
         </Grid>
     </Grid>

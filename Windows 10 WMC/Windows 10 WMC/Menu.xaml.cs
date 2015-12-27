@@ -53,5 +53,15 @@ namespace Windows_10_WMC
         {
             MainPage.mainPage.MainFrame.Navigate(typeof(Movies));
         }
+
+        private void More_Hover(object sender, RoutedEventArgs e)
+        {
+            MoreHoverArrow.Visibility = Visibility.Visible;
+        }
+
+        private void More_Hover_Exit(object sender, RoutedEventArgs e)
+        {
+            MoreHoverArrow.Visibility = Visibility.Collapsed;
+        }
     }
 }
