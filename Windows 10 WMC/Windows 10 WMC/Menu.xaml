@@ -116,9 +116,7 @@
                             <Polygon x:Name="More_Arrow" Points="0,0 7.5,10, 15,0" Fill="#7F000000" HorizontalAlignment="Center" />
                         </StackPanel>
                     </Grid>
-                    <Button x:Name="More_Dropdown" Grid.Row="1" HorizontalAlignment="Stretch" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top">
-                        <TextBlock Text="More Content" FontWeight="Thin" Foreground="#7F000000" FontSize="26.667" PointerEntered="More_Hover" PointerExited="More_Hover_Exit" />
-                    </Button>
+                    <TextBlock Text="More Content" Grid.Row="1" FontWeight="Thin" Foreground="#7F000000" FontSize="26.667" PointerEntered="More_Hover" PointerExited="More_Hover_Exit" HorizontalAlignment="Center" Margin="0,25,0,0" />
                 </Grid>
             </Grid>
         </Grid>
