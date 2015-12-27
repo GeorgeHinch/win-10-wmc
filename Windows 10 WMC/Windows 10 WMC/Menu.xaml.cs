@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -56,12 +57,15 @@ namespace Windows_10_WMC
 
         private void More_Hover(object sender, RoutedEventArgs e)
         {
-            MoreHoverArrow.Visibility = Visibility.Visible;
+            //MoreHoverArrow.Visibility = Visibility.Visible;
+            More_Line.Stroke = new SolidColorBrush(Color.FromArgb(255, 140, 186, 63));
+            More_Arrow.Background = new SolidColorBrush(Color.FromArgb(255, 140, 186, 63));
         }
 
         private void More_Hover_Exit(object sender, RoutedEventArgs e)
         {
-            MoreHoverArrow.Visibility = Visibility.Collapsed;
+            More_Line.Stroke = new SolidColorBrush(Color.FromArgb(255, 191, 191, 191));
+            More_Arrow.Background = new SolidColorBrush(Color.FromArgb(255, 191, 191, 191));
         }
     }
 }
